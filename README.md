@@ -1,1 +1,1 @@
-# Reimbursement-Project
+This project consists of making reimbursements. The employee will login and create a reimbursement request, can see the information, change the information. In the manager side, the manager can see the employees, their information as well as approve and deny the reimbursements. The changes are reflected in the page as well as in the database. You can see the approval or denial of the transactions, login information and personal information as well. Implemented in Java, HTML, CSS, Javascript, and SQL.
