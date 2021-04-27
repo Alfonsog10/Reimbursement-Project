@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Request Approval and Denial</title>
+<link rel="stylesheet" type="text/css" href="Styling.css">
+</head>
+<body>
+<h3>Approve or Deny Requests</h3>
+<div>
+<form action="approvedeny" method="post">
+INDICATE ID TO COMPLETE TRANSACTION <input type="number" name="id">
+<br>
+APPROVE OR DENY??
+<select name="status" id="status">
+	<option value="Approved">Approved</option>
+	<option value="Denied">Denied</option>
+</select>	
+<br> 
+<input type="submit" value="Submit">
+</form>
+<br>
+<br>
+<form action="Manager.html" method="post">
+<input type="submit" value="Go Back">
+</form>
+</div>
+</body>
+</html>
